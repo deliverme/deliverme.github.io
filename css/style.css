@@ -81,7 +81,7 @@
 		}
 
 	h1 {
-		font-size: 2.25em;
+		font-size: 3.5em;
 		line-height: 1.35em;
 	}
 
@@ -943,7 +943,8 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../images/header.jpg");
+			/*background-image: url("images/overlay1.png"), url("../images/header.jpg");*/
+			background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #EF5C20 5%, #EF5720 30%, #EF4020);
 			background-size: auto,							cover;
 		}
 
