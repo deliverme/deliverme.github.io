@@ -1234,30 +1234,31 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 6em 0;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
+		padding: 5em 0 5em 0;
+		background-color: #fff;
+		/*background-color: #4686a0;*/
+		color: #666;
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #EF5C20 5%, #EF5720 30%, #EF4020);
+		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #EF5C20 5%, #EF5720 30%, #EF4020);*/
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
 	}
 
 		#footer a {
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: #666;
 		}
 
 			#footer a:hover {
-				color: #ffffff;
+				color: #6bd4c8;
 			}
 
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #ffffff;
+			color: #666;
 		}
 
 		#footer header p {
-			color: #ffffff;
+			color: #666;
 		}
 
 		#footer header.major:after {
